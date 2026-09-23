@@ -29,7 +29,7 @@ after which you can copy the folders to your .config, log out, and launch hyprla
 ## credits
 creds to MaxHu08 for some of the configs, mainly wlogout, wofi, kitty and the base of the hyprland config | these are heavily inspired by his
 
-# final look
+## final look
 <img width="1919" height="1080" alt="desk" src="https://github.com/user-attachments/assets/ece69097-1cf3-4b22-b68b-e51c443478cc" />
 
 
