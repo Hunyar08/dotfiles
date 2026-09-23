@@ -4,6 +4,8 @@ my arch hyprland dotfiles
 creds to MaxHu08 for some of the configs, mainly wlogout, wofi, kitty and the base of the hyprland config | these are heavily inspired by his\
 
 # dependencies
+use your preferred aur helper to download these packages
+
 hyprland
 hyprlock
 fzf
@@ -16,8 +18,22 @@ waybar
 wofi
 grim
 slurp
-gtk 2, 3, 4
+gtk2
+gtk3
+gtk4
 nemo
 pavucontrol
 
-most apps can be changed within the config, these are if you just cloned the dots and copied the configs
+and clone this repository with '''bash  git clone https://github.com/Hunyar08/dotfiles.git  '''
+
+after which you can launch hyprland with your display manager of choice (or use tty)
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=hunyar08%2Fdotfiles.git&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=hunyar08/dotfiles.git&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=hunyar08/dotfiles.git&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=hunyar08/dotfiles.git&type=date&legend=top-left" />
+ </picture>
+</a>
