@@ -2,7 +2,7 @@
 my arch hyprland dotfiles
 
 ## dependencies
-use your preferred aur helper to download these packages
+use your preferred aur helper to download these packages:
 
 hyprland
 hyprlock
@@ -24,7 +24,7 @@ pavucontrol
 
 and clone this repository with ```git clone https://github.com/Hunyar08/dotfiles.git```
 
-after which you can launch hyprland with your display manager of choice (or use tty)
+after which you can copy the folders to your .config, log out, and launch hyprland with your display manager of choice (or use tty)
 
 ## credits
 creds to MaxHu08 for some of the configs, mainly wlogout, wofi, kitty and the base of the hyprland config | these are heavily inspired by his
