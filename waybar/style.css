@@ -1,0 +1,159 @@
+
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+}
+
+window#waybar {
+    background: #171717;
+    color: #e5e5e5;
+}
+
+/* Module containers */
+
+.modules-left,
+.modules-center,
+.modules-right {
+    padding: 0;
+}
+
+/* Workspaces */
+
+#workspaces button {
+    padding: 0 9px;
+    margin: 0;
+    color: #d4d4d4;
+    background: transparent;
+    box-shadow: none;
+    transition:
+        color 0.2s ease,
+        background-color 0.2s ease;
+}
+
+#workspaces button.empty {
+    color: #737373;
+}
+
+#workspaces button:hover {
+    color: #f59e0b;
+    background: #262626;
+}
+
+#workspaces button.active {
+    color: #171717;
+    background: #f59e0b;
+}
+
+#workspaces button.urgent {
+    color: #f43f5e;
+    border-bottom: 2px solid #f43f5e;
+}
+
+/* Window title */
+
+#window {
+    padding: 0 10px;
+    color: #ffffff;
+}
+
+/* General modules */
+
+#custom-date,
+#temperature,
+#memory,
+#cpu,
+#pulseaudio,
+#network,
+#tray,
+#custom-powermenu {
+    padding: 0 10px;
+}
+
+/* Date */
+
+#custom-date {
+    color: #ff526f;
+}
+
+/* Temperature */
+
+#temperature {
+    color: #f66d0c;
+}
+
+/* Memory */
+
+#memory {
+    color: #a78bfa;
+}
+
+/* CPU */
+
+#cpu {
+    color: #f59e0b;
+}
+
+/* Audio */
+
+#pulseaudio {
+    color: #34d399;
+}
+
+#pulseaudio.muted {
+    color: #737373;
+}
+
+/* Network */
+
+#network {
+    color: #22adee;
+}
+
+#network.disconnected {
+    color: #f43f5e;
+}
+
+/* System warnings */
+
+#cpu.warning,
+#memory.warning,
+#temperature.warning {
+    color: #f59e0b;
+}
+
+#cpu.critical,
+#memory.critical,
+#temperature.critical {
+    color: #f43f5e;
+}
+
+/* Tray */
+
+#tray {
+    padding: 0 8px;
+}
+
+/* Power */
+
+#custom-powermenu {
+    color: #f43f5e;
+    padding: 0 12px;
+}
+
+#custom-powermenu:hover {
+    color: #f59e0b;
+    background: #262626;
+}
+
+/* Tooltips */
+
+tooltip {
+    background: #171717;
+    border: 1px solid #595959;
+    color: #e5e5e5;
+    padding: 6px 10px;
+}

@@ -1,0 +1,121 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 35,
+  "spacing": 0,
+
+  "modules-left": [
+    "custom/date",
+    "hyprland/workspaces",
+    "tray"
+  ],
+
+  "modules-center": [
+    "hyprland/window"
+  ],
+
+  "modules-right": [
+    "temperature",
+    "memory",
+    "cpu",
+    "pulseaudio",
+    "network",
+    "custom/powermenu"
+  ],
+
+  "custom/date": {
+    "exec": "date '+󰸗 %I:%M %p'",
+    "interval": 1,
+    "tooltip": true,
+    "tooltip-format": "Current time"
+  },
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "active-only": false,
+    "all-outputs": false,
+    "disable-scroll": true,
+    "sort-by-number": true,
+
+    "persistent-workspaces": {
+      "*": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+
+    "format-icons": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9"
+    }
+  },
+
+  "hyprland/window": {
+    "format": "{}",
+    "max-length": 60,
+    "separate-outputs": true
+  },
+
+  "tray": {
+    "icon-size": 16,
+    "spacing": 6
+  },
+
+  "temperature": {
+    "interval": 5,
+    "format": "{icon} {temperatureC}°C",
+    "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    "critical-threshold": 80,
+    "format-icons": ["", "", ""],
+    "states": {
+      "warning": 70,
+      "critical": 80
+    }
+  },
+
+  "memory": {
+    "interval": 2,
+    "format": "󰫗 {percentage}%",
+    "tooltip": false,
+    "states": {
+      "warning": 70,
+      "critical": 90
+    }
+  },
+
+  "cpu": {
+    "interval": 2,
+    "format": " {usage}%",
+    "tooltip": false,
+    "states": {
+      "warning": 60,
+      "critical": 85
+    }
+  },
+
+  "pulseaudio": {
+    "format": " {volume}%",
+    "format-muted": " {volume}%",
+    "scroll-step": 1,
+    "on-click": "pavucontrol",
+    "tooltip": false
+  },
+
+  "network": {
+    "format-wifi": "󰖩 {essid}",
+    "format-ethernet": "󰈀 {ifname}",
+    "format-disconnected": "󰖪 offline",
+    "tooltip-format": "{ifname}: {ipaddr}",
+    "interval": 5
+  },
+
+  "custom/powermenu": {
+    "format": "  ",
+    "tooltip": false,
+    "on-click": "wlogout -p layer-shell"
+  }
+}

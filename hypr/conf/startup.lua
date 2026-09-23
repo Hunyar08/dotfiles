@@ -1,0 +1,6 @@
+hl.on("hyprland.start", function()
+  hl.exec_cmd("hyprctl setcursor Bibata-Modern-Classic 24")
+  hl.exec_cmd("sh -c 'waybar &'")
+  hl.exec_cmd("awww-daemon")
+  hl.exec_cmd("/home/hun/Dev/scripts/wall.sh")
+end)
