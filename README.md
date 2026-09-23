@@ -27,7 +27,7 @@ and clone this repository with ```git clone https://github.com/Hunyar08/dotfiles
 after which you can launch hyprland with your display manager of choice (or use tty)
 
 ## credits
-creds to MaxHu08 for some of the configs, mainly wlogout, wofi, kitty and the base of the hyprland config | these are heavily inspired by his\
+creds to MaxHu08 for some of the configs, mainly wlogout, wofi, kitty and the base of the hyprland config | these are heavily inspired by his
 
 ## Star History
 
