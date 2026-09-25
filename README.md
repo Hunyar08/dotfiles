@@ -4,6 +4,7 @@ my arch hyprland dotfiles
 ## dependencies
 use your preferred aur helper to download these packages:
 
+```
 hyprland
 hyprlock
 fzf
@@ -21,7 +22,7 @@ gtk3
 gtk4
 nemo
 pavucontrol
-
+```
 and clone this repository with ```git clone https://github.com/Hunyar08/dotfiles.git```
 
 after which you can copy the folders to your .config, log out, and launch hyprland with your display manager of choice (or use tty)
